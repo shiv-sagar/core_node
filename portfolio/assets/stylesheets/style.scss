@@ -1,0 +1,220 @@
+@import "reset";
+@import "general";
+@import "header";
+@import "hero";
+@import "section2";
+@import "section345";
+@import "footer";
+
+
+
+@media all and (max-width:768px) {
+    .container {
+        /* margin: 0 auto; */
+        padding: 0 10px;
+    }
+    .sub_menu {
+      transform: translateX(-59%);
+      background: linear-gradient(#23a3aa, #1a2021);
+      width: 260%;
+      height: 100vh;
+      text-align: center;
+    }
+    .home_small_circle img {
+      margin: 15px 0;
+    }
+    .home_grid {
+      display: block;
+      width: 90%
+    }
+    .flex {
+        display: block;
+        /* text-align: left; */
+    }
+    .responsive_image, .home_services_box, .home_services_image {
+        display: block;
+        width: 106%;
+        object-fit: cover;
+    }
+    .home_section2_service_box p {
+        padding: 0;
+    }
+    .home_cafe_image, .home_cafe_heading, .home_section5_imagebox, .home_section5_image {
+        width: 100%;
+    }
+    .home_therapy {
+        width: 95%;
+    }
+    .home_section5_map {
+        width: 100%;
+        height: 400px;
+    }
+    .home_cafe_heading p {
+        padding: 0;
+    }
+    .home_cafe_heading h4, .home_section2_service_box h4 {
+        padding: 20px 0;
+        font-size: 26px;
+    }
+    .followus {
+        font-size: 22px;
+    }
+    .icon {
+        width: 40px;
+        height: 40px;
+        line-height: 0;
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .fab {
+    padding: 10px 0;
+    }
+    .hero {
+        background-position: center center;
+    }
+    .circle {
+        display: none;
+    }
+    .flex2 {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    //  Mayank CSS
+
+    .team-responsive {
+      display: block;
+      width: 100%;
+  }
+
+  .team-responsive1 {
+      width: 100%;
+      background-size: cover;
+      background-position: 50% 50%;
+  }
+  .event_grid {
+      display: block;
+  }
+
+  .event_image {
+      width: 100%;
+      object-fit: cover;
+  }
+
+  .event-head {
+      font-size: 30px;
+      text-align: center;
+  }
+
+  .event-para {
+      font-size: 16px;
+      margin: 0 12px;
+  }
+
+  .hero-image {
+      width: 100%;
+      background-size: cover;
+      background-position: 75% 100%;
+  }
+
+
+
+//   Media queries Services Ashish Sharma
+.slidershow{
+    display: none;
+}
+
+
+.services-column-menu{
+    width: 100%;
+    display: block;
+    padding: 0 10px;
+}
+.services-column-content{
+    width: 100%;
+    display: block;
+    padding: 0 10px;
+}
+.singlecol{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.heroservice{
+    width: 100%;
+    background-position: 65% 60%;
+}
+
+}
+
+
+
+// shivsagar responsive gallery and cafe
+
+/* responsive gallery */
+@media all and (max-width:768px) {	
+	.gallery-hero {
+		width:100%;
+		background-position: 100% 100%;
+		background-size: cover;
+	}
+	.gallery-grid {
+		width: 100%;
+		display:block;
+	}
+}
+/* responsive cafe section*/
+@media all and (max-width:768px) {
+	.cafe-hero {
+		width:100%;
+		background-position: 100% 100%;
+		background-size: cover;
+	}
+	.gallery-hero {
+		width:100%;
+		background-position: 100% 100%;
+		background-size: cover;
+	}
+	.gallery-grid {
+		width: 100%;
+		display:block;
+		grid-gap:25px;
+	}
+	.cafe-hero-heading {
+		font-size:45px;
+	}
+	.cafe-hero-text p {
+		padding:15px;
+	}
+
+	.gallery-grid {
+		width: 100%;
+		display:block;
+	}
+	.cafe-info {
+		width: 100%;
+		display:block;
+	}
+	.cafe-info-paras {
+		padding: 0 15px;
+	}
+	.cafe-hero-heading {
+		padding:0 15px;
+	}	
+}
+
+
+// Contact us responsive AShish
+
+
+@media all and (max-width:768px){
+    .contact_singlecol{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .contactus_background{
+        background-position: 35% 60%;
+    }
+}

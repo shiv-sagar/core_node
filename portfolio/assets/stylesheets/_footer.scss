@@ -1,0 +1,49 @@
+/* footer */
+
+.footer {
+    background: #111;
+    opacity: 0.8;
+    padding: 100px 0px; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.followus{
+    color: aliceblue;
+    margin: 0;
+    padding: 30px 0;
+    font-size: 28px;
+    font-weight: 500;
+}
+.copyright{
+    font-size: 18px;
+    color: aliceblue;
+    margin-top: 10px;
+    /* background-color: #341734 */
+}
+
+.icon {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background-color: transparent;
+    line-height: 70px;
+    /* transition: transform 2s; */
+    border-radius: 50%;
+    transition: all 1s;
+    margin: 20px;
+    font-size: 30px;
+    border: 2px solid #00a8ff;
+    color: #00a8ff; 
+}
+
+.icon:hover {
+    /* background-color: white; */
+    border: 2px solid #333;
+    opacity: .9;
+    transform: rotate(360deg) scale(1);
+    cursor: pointer;
+    box-shadow: 2px 2px 24px #fff; 
+}
+.text_center {
+    text-align: center;
+}

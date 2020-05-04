@@ -1,0 +1,197 @@
+.hero {
+    background: url(../media/DSC_0074.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+    position: relative;
+
+}
+.hero_heading {
+    color: white;
+    /* font-weight: 700; */
+    padding: 400px 0 0 0;
+    font-size: 64px;
+    text-align: center;
+}
+.hero_btn {
+    text-align: center;
+    padding-bottom: 250px;
+}
+.home_btn {
+    width: 100px;
+    height: 50px;
+    background-color: #059DDA;
+    border: 0;
+    /* padding: 20px 30px; */
+    color: #fff;
+    border-radius: 5px;
+    /* text-align: center; */
+    text-transform: uppercase;
+}
+.hero_btn2 {
+    background-color: #fff;
+    color: #111;
+}
+
+// Mayank CSS
+
+/* Hero -- Team CSS */
+.hero_image {
+    background: url(../media/landscape-4734171_1280.jpg) no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: 100% 80%;
+    object-fit: cover;
+  }
+  
+  .hero_header {
+    padding-top: 350px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    color: #c23616;
+    text-shadow: 1px 1px 1px burlywood;
+  }
+  
+  .hero-sub_header {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 30px 0;
+    text-align: center;
+    font-style: italic;
+    color: #e84118;
+    text-shadow: 1px 1px 1px lightskyblue;
+  }
+  
+  .hero-sub_header a {
+    text-decoration: none;
+    color: #e84118;
+    text-shadow: 1px 1px 1px lightskyblue;
+  }
+  
+// hero -- Events css
+.hero-image {
+    background: url(../media/samoyed.jpg)no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: 100% 120%;
+    object-fit: cover;
+  }
+  
+  .hero-header {
+    padding-top: 350px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    color: #986E5D;
+    text-shadow: 1px 1px 1px burlywood;
+  }
+  
+  .hero_sub-header {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 30px 0;
+    text-align: center;
+    font-style: italic;
+    color: #2C5688;
+    text-shadow: 1px 1px 1px lightskyblue;
+  }
+  
+  .hero_sub-header a {
+    text-decoration: none;
+  }
+
+
+  // Hero - Services - Ashish
+
+  // Hero
+
+  .heroservice {
+    background: url(../media/servicesback.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+    position: relative;
+    background-repeat: no-repeat;
+  }
+  
+
+.hero_heading {
+  color: white;
+  /* font-weight: 700; */
+  padding: 300px 0px;
+  font-size: 64px;
+  text-align: center;
+}
+
+// gallery hero section-shivsagar
+
+/*hero section of gallery */
+
+.gallery-hero-heading {
+	font-size: 60px;
+	color:white;
+	font-weight:600;
+}
+
+.gallery-hero {
+	background: url(../media/gallery-hero.jpg) no-repeat;
+	background-attachment: fixed;	
+	background-size: cover;	
+}
+.dark {
+	width:100%;
+	height:100%;	
+	background-color:rgba(0,0,0,0.6);
+}
+.gallery-hero-text {
+    text-align:center;
+    padding-top:400px;
+	padding-bottom:100px;
+	color:white;
+}
+.gallery-hero a {
+	text-decoration:none;
+	color:white;
+}
+.gallery-hero p {
+	padding-top:30px;
+	font-style: italic;
+	font-size:20px;
+}
+.gallery-hero a:hover {
+	color: #5385c1;
+}
+/*hero section of cafe */
+
+.cafe-hero-heading {
+	font-size: 60px;
+	color:white;
+	font-weight:600;
+	padding-bottom:50px;
+}
+
+.cafe-hero {
+	background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../media/cafe-hero-background-fixed.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;	
+	background-size: cover;	
+}
+.cafe-hero-text {
+    text-align:center;
+    padding-top:300px;
+	padding-bottom:100px;
+	color:white;
+}
+.cafe-hero a {
+	text-decoration:none;
+	color:white;
+}
+.cafe-hero p {
+	font-style: italic;
+	font-size:20px;
+}
+.cafe-hero a:hover {
+	color: #5385c1;
+}
+
